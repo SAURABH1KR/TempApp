@@ -1,4 +1,5 @@
 # TempApp
+This is a simple app which can convert from one unit of temperature to another.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
