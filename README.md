@@ -1,5 +1,15 @@
 # TempApp
-This is a simple app which can convert from one unit of temperature to another.
+This is a simple app which can convert from one unit of temperature to another. 
+
+Find the published App at https://saurabh1kr.github.io/TempApp/
+
+Work Left
+1. Do unit tests
+2. Use .Net APIs to streamline data
+3. Add CSS ti make it look good
+
+How to use
+Just enter any number into the textboxes provided, to get corresponding temperature in other units.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
