@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>{{pageTitle}}</h1>
+
+<form >
+
+  <b>Input temperature in any box to get corresponding temperature in other units</b>
+  <br>
+  <div>
+    <label id="tempInCelsius">Temp in Celsius</label><br>
+    <input id="tempInCelsius" type="text" [(ngModel)]="tempInCelsius"/><br>
+    <label id="tempInKelvin">Temp in Kelvin</label><br>
+    <input type="text" id=kelvin value={{tempInKelvin}} [(ngModel)]='tempInKelvin' (change) ="CalculateWhenK()"/><br>
+    <label id="tempInFahrenheit">Temp in Fahrenheit</label><br>
+    <input type="text" id=fahren value={{tempInFahrenheit}} [(ngModel)]='tempInFahrenheit' (change) ="CalculateWhenF()"/>
+  
+    <p> {{name}} </p> 
+  
+    <input [(ngModel)]="name" />
+  
+  </div>
+</form>
+</body>
+</html>
